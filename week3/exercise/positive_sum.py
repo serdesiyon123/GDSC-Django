@@ -3,3 +3,6 @@ def positive_sum(numbers):
 
 numbers = [1, -2, 3]
 print(positive_sum(numbers))  
+
+number = list(map(int,input("Enter numbers").split()))
+print(positive_sum(number))
