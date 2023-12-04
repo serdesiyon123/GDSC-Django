@@ -1,5 +1,6 @@
 def positive_sum(numbers):
     return sum(i for i in numbers if i > 0)
+ 
+number = list(map(int,input("enter numbers: ").split()))
 
-numbers = [1, -2, 3]
-print(positive_sum(numbers))  
+print(positive_sum(number))
