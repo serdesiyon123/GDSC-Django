@@ -3,6 +3,6 @@ def sentence_size():
     if len(enter) >= 10:
         print("Long")
     else:
-        print("short")
-        
+        print("short")   
+            
 sentence_size()
