@@ -3,4 +3,4 @@ try:
     print(x / y)
 
 except ZeroDivisionError:
-    print("Cant divide by zero")
+    print("Can't divide by zero")
