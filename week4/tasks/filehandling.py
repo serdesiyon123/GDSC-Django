@@ -1,8 +1,9 @@
 import os
-import shutil
+import shutil 
 import time
 
 current_time = time.time()
+print(current_time)
 
 def is_modified_last_24_hours(file):
     stats = os.stat(file)
