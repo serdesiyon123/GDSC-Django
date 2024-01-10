@@ -1,1 +1,7 @@
 .env/
+first_django/blog/migrations
+first_django/comment/migrations
+student/advisor/migrations
+student/student/migrations
+manage.py
+requirments.txt
