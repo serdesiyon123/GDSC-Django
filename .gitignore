@@ -5,3 +5,5 @@ student/advisor/migrations
 student/student/migrations
 manage.py
 requirments.txt
+GDSCBlog/GDSCBlog/__pycache__
+student/student/__pycache__
