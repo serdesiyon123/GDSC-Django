@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'GDSCBlog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'crud',
+        'NAME': 'GDSCDjango',
         'USER': 'postgres',
         'PASSWORD': 'S3rv3post',
         'HOST': 'localhost',

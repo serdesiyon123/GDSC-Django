@@ -2,13 +2,14 @@ import os
 import shutil 
 import time
 
+dayinseconds = 24*60*60
 current_time = time.time()
 print(current_time)
 
 def is_modified_last_24_hours(file):
     stats = os.stat(file)
     
-    return max(stats.st_mtime, stats.st_ctime) >= current_time - 24*60*60
+    return max(stats.st_mtime, stats.st_ctime) >= current_time - dayinseconds
 
 def update_file(file):
     # Append timestamp to file content
