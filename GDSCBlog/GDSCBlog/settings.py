@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'GDSCBlog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'crud',
+        'USER': 'postgres',
+        'PASSWORD': 'S3rv3post',
+        'HOST': 'localhost',
+        'PORT': '5432'
     }
 }
 

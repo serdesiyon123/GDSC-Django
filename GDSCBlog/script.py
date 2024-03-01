@@ -1,9 +1,11 @@
 from BlogApp.models import Post
 from CommentApp.models import Comment
+
+
 # Creating Post Records
-post1 = Post.objects.create(title="WeeklyReport", content="WeeklyNews", category="R-rated")
-post2 = Post.objects.create(title="MonthlyReport", content="MonthlyNews", category="R-rated")
-post3 = Post.objects.create(title="AnnualyReport", content="AnnualNews", category="R-rated")
+post1 = Post.objects.create(title="WeeklyReport", content="WeeklyNews", category="R-rated", tags="tag1")
+post2 = Post.objects.create(title="MonthlyReport", content="MonthlyNews", category="R-rated", tags="tag2")
+post3 = Post.objects.create(title="AnnualyReport", content="AnnualNews", category="R-rated", tags="tag3")
 
 # Updating Post2 title
 post2.title="DailyReport"
